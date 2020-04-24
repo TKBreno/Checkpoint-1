@@ -8,7 +8,7 @@ while True:
             print("Email Vazado!!!")
             danger = input("Deseja Recuperar seu email? (S/N)").upper()
             if danger == "S":
-                    vazamentos.remove(input("Digite seu email para remover-lo da lista:"))
+                    vazamentos.remove(input("Digite seu email para remover-lo da lista vazada:"))
                     print("Email removido com sucesso")
             elif danger == "N":
                     exit
